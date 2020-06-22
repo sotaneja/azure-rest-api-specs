@@ -3233,6 +3233,11 @@
           "description": "The properties of the amlCompute."
         }
       },
+      "identity": {
+        "$ref": "#/definitions/Identity",
+        "title": "identity",
+        "description": "Identity of the compute"
+      },
       "description": "AmlCompute update parameters."
     },
     "ComputeNodesInformation": {
